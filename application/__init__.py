@@ -10,6 +10,6 @@ app.config['SECRET_KEY'] = getenv('secretkey')
 
 db = SQLAlchemy(app)
 
-import application.forms
 import application.models
+import application.forms
 import application.routes

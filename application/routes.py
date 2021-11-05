@@ -1,4 +1,4 @@
-from flask import Flask, request, redirect, render_template
+from flask import request, redirect, render_template
 from application import app, db
 from application.forms import AddEmp, UpdateEmp
 from application.models import Employee
